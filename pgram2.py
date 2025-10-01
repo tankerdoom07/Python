@@ -11,25 +11,25 @@
 # #     return sum
 # # cal_sum(20, 10)
 
-# # cal_sum(18,19)
+# cal_sum(18,19)
 
-# # def cal_sum():
-# #     print("hello")
-# #     return
-# # cal_sum()
+# def cal_sum():
+#     print("hello")
+#     return
+# cal_sum()
 
 # # dsfggr
-# # cities = ["a" , "b" , "c"]
-# # heroes = ["d" , "e" , "f"]
+cities = ["a" , "b" , "c"]
+heroes = ["d" , "e" , "f"]
 
-# # def print_len(list):
-# #     print(len(list))
+def print_len(list):
+    print(len(list))
 
-# # def print_list(list):
-# #     for item in list:
-# #         print(item, end=" ")
+def print_list(list):
+    for item in list:
+        print(item, end=" ")
  
-# # print_list(heroes)
+print_list(heroes)
 # # def cal_fact(n):
 # #     fact = 1
 # #     for i in range(1, n+1):
@@ -308,27 +308,28 @@
 # print(c1.varB)
 # print(c1.varC)
 
-class car :
-    def __init__(self, type):
-        self.type = type
+# class car :
+#     def __init__(self, type):
+#         self.type = type
 
-    @staticmethod
-    def start():
-        print("car started")
+#     @staticmethod
+#     def start():
+#         print("car started")
 
-    def stop(self):
-        print("car stopped")    
+#     @staticmethod
+#     def stop():
+#         print("car stopped")                           # super  method
 
-class toyota(car):
-    def __init__(self, name , type):
-        super().__init__(type)
-        self.name = name
-        super().start()
-        super().stop()
+# class toyota(car):
+#     def __init__(self, name , type):
+#         super().__init__(type)
+#         self.name = name
+#         super().start()
+#         super().stop()
 
-car1 = toyota("fortuner" , "suv")
-print(car1.name)
-print(car1.type)
-car1.start()
-car1.stop()
+# car1 = toyota("fortuner" , "suv")
+# print(car1.name)
+# print(car1.type)
+# car1.start()
+# car1.stop()
 

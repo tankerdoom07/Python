@@ -1,0 +1,5 @@
+f = open("dem3.txt" , "r")
+data = f.read()
+print(data)
+print(type(data))
+f.close()
